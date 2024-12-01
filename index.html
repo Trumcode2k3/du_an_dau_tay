@@ -3,463 +3,83 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- them link awesome cdn  -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <!-- reset css link vao phai reset.css -->
-    <link rel="stylesheet" href="./assets/css/reset.css" />
-    <!-- nhung font tu google font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
-      rel="stylesheet"
-    />
-    <!-- link vao file style.css -->
+    <title>Document</title>
     <link rel="stylesheet" href="style.css" />
-    <title>figma to html</title>
   </head>
   <body>
-    <header class="header fixed">
-      <div class="main-contain">
-        <div class="body">
-          <!-- logo -->
-          <img
-            id="anh_lesson"
-            src="./assets/css/anh lesson.png"
-            alt="lesson"
-            class="logo"
-          />
-          <!-- nav la 1 the giup trinh duyet biet day la thanh mmenu -->
-          <nav class="nav">
-            <ul>
-              <li>
-                <a href="#!" id="home">home</a>
-              </li>
-              <li>
-                <a href="#!">Courses</a>
-              </li>
-              <li>
-                <a href="#!">pricing</a>
-              </li>
-              <li>
-                <a href="#!">Reviews</a>
-              </li>
-            </ul>
-          </nav>
-          <!-- btn-action -->
-          <div class="action">
-            <a href="#!" class="btn btn-sign-up">Sign up</a>
-          </div>
-        </div>
+    <h1>Nhat ky biet on</h1>
+    <h2>mot thai do biet on</h2>
+    <p class="biet_on">
+      toi ten la [ten cua ban], cam ket se ghi vao nhat ky nay moi ngay ba dieu
+      ma toi cam thay biet on.Day la cach ma toi dinh hinh quan diem cua minh,
+      lua chon su hai long, va lap day the gioi voi nhung cam xuc tich cuc, tung
+      ngay mot
+    </p>
+    <div class="container">
+      <div class="table">
+        <p>
+          <b>ngay bat dau:</b><br />
+          ngay 5 thang 1 nam 2025
+        </p>
       </div>
-    </header>
-    <!-- main -->
-    <div class="main">
-      <!-- code phan hero -->
-      <div class="hero">
-        <div class="main-content">
-          <div class="body">
-            <!-- hero left -->
-            <div class="media-block">
-              <img src="./assets/css/anh sinh vien.png" alt="" class="img" />
-              <div class="hero-summary">
-                <!-- item 1 -->
-                <div class="item">
-                  <div class="icon icon1">
-                    <img src="./assets/css/folder-picture.png" alt="" />
-                  </div>
-                  <div class="info">
-                    <p class="label">20 Courses</p>
-                    <p class="title">UI/UX Design</p>
-                  </div>
-                </div>
-                <!-- item 2 -->
-                <div class="item">
-                  <div class="icon icon2">
-                    <img src="./assets/css/html-picuture.png" alt="" />
-                  </div>
-                  <div class="info">
-                    <p class="label">20 Courses</p>
-                    <p class="title">Development</p>
-                  </div>
-                </div>
-                <!-- item 3 -->
-                <div class="item">
-                  <div class="icon icon3">
-                    <img src="./assets/css/speaker-pucture.png" alt="" />
-                  </div>
-                  <div class="info">
-                    <p class="label">30 Courses</p>
-                    <p class="title">Marketing</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- hero right -->
-            <div class="content-block">
-              <h1 class="heading">Learn without limits and spread knowledge</h1>
-              <p class="describtion">
-                Build new skills for that "this is my year" feeling with
-                courses, certificates,and degrees from word-class universities
-                and companies.
-              </p>
-              <div class="cta-group">
-                <a href="#!" class="btn hero-cta">See Courses</a>
-                <button class="watch-video">
-                  <div class="icon">
-                    <img src="./assets/css/play-button.png" alt="" />
-                  </div>
-                  <span>Watch Video</span>
-                </button>
-              </div>
-              <p class="describtion">Recent engagement</p>
-              <p class="describtion stats">
-                <strong>50K</strong> students <strong>70+</strong> Courses
-              </p>
-            </div>
-          </div>
-        </div>
+      <div class="table">
+        <p>
+          <b>thoi gian cam ket:</b><br />
+          8:30 sang
+        </p>
       </div>
-      <!-- popular -->
-      <div class="popular">
-        <div class="main-content">
-          <div class="popular-top">
-            <div class="info">
-              <h2 class="heading-lv2">Our popular courses</h2>
-              <p class="description">
-                Build new skills with new trendy courses and shine for the next
-                future career.
-              </p>
-            </div>
-            <!-- popular right -->
-            <div class="controls">
-              <button class="control-btn">
-                <img src="./assets/css/left-arrow.png" alt="" />
-              </button>
-              <button class="control-btn">
-                <img src="./assets/css/right-arrow.png" alt="" />
-              </button>
-            </div>
-          </div>
-
-          <div class="course-list">
-            <!-- item 1 -->
-            <div class="course-item">
-              <img
-                src="https://i.pinimg.com/736x/b2/cb/e7/b2cbe76819444fb37de62f8e911d01b8.jpg"
-                alt="Web App design"
-                class="thumb"
-              />
-              <div class="info">
-                <div class="head">
-                  <h3 class="title">Web App design</h3>
-                  <div class="rating">
-                    <img src="./assets/css/star.png" alt="" class="star" />
-                    <span class="value">4.5</span>
-                  </div>
-                </div>
-                <p class="description">
-                  Get the best course, gain knowledge and shine for your future
-                  career.
-                </p>
-                <div class="foot">
-                  <span class="price">$120.75</span>
-                  <button class="btn btn-book">Book Now</button>
-                </div>
-              </div>
-            </div>
-            <!-- item 2 -->
-            <div class="course-item">
-              <img
-                src="https://i.pinimg.com/736x/3a/75/9a/3a759aa77bd8c1b7190e5215b912fc67.jpg"
-                alt="UI/UX design"
-                class="thumb"
-              />
-              <div class="info">
-                <div class="head">
-                  <h3 class="title">UI/UX design</h3>
-                  <div class="rating">
-                    <img src="./assets/css/star.png" alt="" class="star" />
-                    <span class="value">4.5</span>
-                  </div>
-                </div>
-                <p class="description">
-                  Get the best course, gain knowledge and shine for your future
-                  career.
-                </p>
-                <div class="foot">
-                  <span class="price">$120.75</span>
-                  <button class="btn btn-book">Book Now</button>
-                </div>
-              </div>
-            </div>
-            <!-- item 3 -->
-            <div class="course-item">
-              <img
-                src="https://i.pinimg.com/736x/59/a1/00/59a10093457a1c5b86a02e566bacfabd.jpg"
-                alt="Basic web design"
-                class="thumb"
-              />
-              <div class="info">
-                <div class="head">
-                  <h3 class="title">Web App design</h3>
-                  <div class="rating">
-                    <img src="./assets/css/star.png" alt="" class="star" />
-                    <span class="value">4.5</span>
-                  </div>
-                </div>
-                <p class="description">
-                  Get the best course, gain knowledge and shine for your future
-                  career.
-                </p>
-                <div class="foot">
-                  <span class="price">$120.75</span>
-                  <button class="btn btn-book">Book Now</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- feedback -->
-      <div class="feedback">
-        <div class="main-content">
-          <div class="feedback-list">
-            <div class="feedback-item">
-              <!-- khoi ben trai -->
-              <div class="info">
-                <img
-                  src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                  alt="Peter Moor"
-                  class="avatar"
-                />
-                <p class="member-name">Peter Moor</p>
-                <p class="description">Student of Web Design</p>
-                <div class="dots">
-                  <span class="dot"></span>
-                  <span class="dot active"></span>
-                  <span class="dot"></span>
-                </div>
-              </div>
-              <!-- khoi ben phai -->
-              <div class="content">
-                <img src="./assets/css/quotes.png" alt="" class="open-quotes" />
-                <blockquote>
-                  Not only does my resume look impressive-filled with the names
-                  and logos of word-class institutions-but these certificates
-                  also bring me closer to my career goals by validating the
-                  skills I've learned.
-                </blockquote>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- features 1 -->
-      <div class="features">
-        <div class="main-content">
-          <div class="body">
-            <div class="images">
-              <img
-                class="lower"
-                src="https://i.pinimg.com/736x/ba/aa/b2/baaab2406cc1045346531f36107b7ed5.jpg"
-                alt="Learner outcomes through our awesome platform"
-              />
-              <img
-                src="https://i.pinimg.com/736x/0e/c1/2b/0ec12b101f9374f8b80588f3d1a1b56f.jpg"
-                alt="Learner outcomes through our awesome platform"
-              />
-            </div>
-            <div class="content">
-              <h2 class="heading-lv2">
-                Learner outcomes through our awesome platform
-              </h2>
-              <p class="description">
-                87% of people learning for professional development report
-                carreer benefits like getting a promotion, a raise, or starting
-                a new career
-              </p>
-              <p class="description">Lesson Impact Report (2022)</p>
-              <a href="#!" class="btn cta-btn">Sign Up</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- features 2 -->
-      <div class="features features-2nd">
-        <div class="main-content">
-          <div class="body">
-            <div class="images">
-              <img
-                src="https://i.pinimg.com/736x/46/f1/ff/46f1ff6c41a10462d4975888ee1b6dc6.jpg"
-                alt=""
-              />
-            </div>
-            <div class="content">
-              <h2 class="heading-lv2">
-                Take the next step toward your personal and professional goals
-                with Lesson
-              </h2>
-              <p class="description">
-                Take the next step toward. Join now to receive personalized and
-                more recommendations from the full Coursera catalog
-              </p>
-              <a href="#!" class="btn cta-btn">Join Now</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- blogs -->
-      <div class="blogs">
-        <div class="main-content">
-          <div class="blog-top">
-            <h2 class="heading-lv2">Our blog</h2>
-            <p class="description">
-              Read our regular travel blog and know the latest update of tour
-              and travel
-            </p>
-          </div>
-          <div class="blog-list">
-            <!-- item 1 -->
-            <div class="item">
-              <img
-                src="https://i.pinimg.com/736x/4e/9d/e9/4e9de906b67ca5b586fa0b8e469be745.jpg"
-                alt=""
-                class="thumb"
-              />
-              <div class="info">
-                <span class="date">21 November 2021</span>
-                <h3 class="title">
-                  How to become a pro web designer in 2024 and get remot job?
-                </h3>
-                <a href="" class="btn">Read Now</a>
-              </div>
-            </div>
-            <!-- item 2 -->
-            <div class="item">
-              <img
-                src="https://i.pinimg.com/736x/a1/2b/1c/a12b1c3877590f258b714c4a6421b5ed.jpg"
-                alt=""
-                class="thumb"
-              />
-              <div class="info">
-                <span class="date">21 November 2021</span>
-                <h3 class="title">
-                  How to become a pro web designer in 2024 and get remot job?
-                </h3>
-                <a href="" class="btn">Read Now</a>
-              </div>
-            </div>
-            <!-- item 3 -->
-            <div class="item">
-              <img
-                src="https://i.pinimg.com/736x/ea/33/b4/ea33b4b0f3d5d4f1220d7445ad7f9e0b.jpg"
-                alt=""
-                class="thumb"
-              />
-              <div class="info">
-                <span class="date">21 November 2021</span>
-                <h3 class="title">
-                  How to become a pro web designer in 2024 and get remot job?
-                </h3>
-                <a href="" class="btn">Read Now</a>
-              </div>
-            </div>
-          </div>
-        </div>
+      <div class="table">
+        <p>
+          <b>Tam trang Thong Thuong:</b><br />
+          Trong luc tan huong tach ca phe<br />
+          buoi sang, truoc khi lam viec
+        </p>
       </div>
     </div>
-    <!-- footer -->
-    <footer class="footer">
-      <div class="main-content">
-        <div class="row">
-          <!-- column 1 -->
-          <div class="column">
-            <h1>Lesson</h1>
-            <p class="description">
-              Need to help for your dream Career? trust us. With Lesson, study
-              becomes a lot easier with us.
-            </p>
-            <div class="socials">
-              <a href="">
-                <i class="fa-brands fa-square-x-twitter"></i>
-              </a>
-              <a href="">
-                <i class="fa-brands fa-facebook"></i>
-              </a>
-              <a href="">
-                <i class="fa-brands fa-linkedin"></i>
-              </a>
-              <a href="">
-                <i class="fa-brands fa-instagram"></i>
-              </a>
-            </div>
-          </div>
-          <!-- column 2 -->
-          <div class="column">
-            <h3 class="title">Company</h3>
-            <ul class="list">
-              <li>
-                <a href="#!">About Us</a>
-              </li>
-              <li>
-                <a href="#!">Features</a>
-              </li>
-              <li>
-                <a href="#!">Our Pricing</a>
-              </li>
-              <li>
-                <a href="#!">Latest News</a>
-              </li>
-            </ul>
-          </div>
-          <!-- column 3 -->
-          <div class="column">
-            <h3 class="title">Support</h3>
-            <ul class="list">
-              <li>
-                <a href="#!">FAQ's</a>
-              </li>
-              <li>
-                <a href="#!">Term & Conditions</a>
-              </li>
-              <li>
-                <a href="#!">Privacy Policy</a>
-              </li>
-              <li>
-                <a href="#!">Contact Us</a>
-              </li>
-            </ul>
-          </div>
-          <!-- column 4 -->
-          <div class="column">
-            <h3 class="title">Address</h3>
-            <ul class="list">
-              <li>
-                <a href="#!"
-                  ><strong>Location:</strong> 27 Division St, New York, NY
-                  10002, USA</a
-                >
-              </li>
-              <li>
-                <a href="#!"><strong>Email:</strong> email@gmail.com</a>
-              </li>
-              <li>
-                <a href="#!"><strong>Phone:</strong> + 000 1234 567 890</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="copyright">
-          <p>Copyright &#169; webdesign.gdn ALL right reserved</p>
-        </div>
-      </div>
-    </footer>
+    <h2>Theo doi thoi quen Tu cham soc ban than</h2>
+    <div class="input-checkbox" id="input-checkbox">
+      <label>
+        <input type="checkbox" />lam diu tam tri voi ba hoi tho that sau
+      </label>
+      <label>
+        <input type="checkbox" />viet ba dieu ma toi cam thay biet on
+      </label>
+      <label>
+        <input type="checkbox" />suy ngam ve loi nhac hang ngay bang cach viet
+        mot ghi chu cho ban than
+      </label>
+    </div>
+    <h2>Nhat ky biet on</h2>
+    <table>
+      <th><p>Ngay</p></th>
+      <th><p>Ba dieu ma toi cam they biet on</p></th>
+      <th><p>Dieu toi can Suy nghi</p></th>
+      <th><p>ghi chu cho ban than hom nay</p></th>
+
+      <tr>
+        <td><p>CN,5/1</p></td>
+        <td>
+          <ul>
+            <li><p>them o day</p></li>
+            <li><p>o day</p></li>
+          </ul>
+        </td>
+        <td>
+          <p>
+            trong cuoc song,<br />
+            dieu quan trong<br />
+            khong phai la toc do<br />
+            ma la phuong huong
+          </p>
+        </td>
+        <td>
+          <p>
+            toi dang o noi ma toi can o,<br />
+            chi toi thoi la du roi
+          </p>
+        </td>
+      </tr>
+    </table>
   </body>
+  <script src="main.js"></script>
 </html>
